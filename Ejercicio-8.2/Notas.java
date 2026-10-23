@@ -1,10 +1,6 @@
 
 package actividad3_ejercicio8point2;
 
-/**
- *
- * @author Mariana
- */
 public class Notas {
 double[] listaNotas;
 
