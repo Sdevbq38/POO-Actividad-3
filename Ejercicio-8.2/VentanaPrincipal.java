@@ -160,22 +160,27 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             if (nota1.isEmpty()) {
         JOptionPane.showMessageDialog(this, "El campo nota 1 no puede estar vacío.", "Error de Validación", JOptionPane.ERROR_MESSAGE);
         campoNota1.requestFocus(); // Devuelve el foco al campo
+        return;
     } 
     else if (nota2.isEmpty()) {
         JOptionPane.showMessageDialog(this, "El campo nota 2 no puede estar vacío.", "Error de Validación", JOptionPane.ERROR_MESSAGE);
         campoNota2.requestFocus(); // Devuelve el foco al campo
+        return;
     } 
     else if (nota3.isEmpty()) {
         JOptionPane.showMessageDialog(this, "El campo nota 3 no puede estar vacío.", "Error de Validación", JOptionPane.ERROR_MESSAGE);
         campoNota3.requestFocus(); // Devuelve el foco al campo
+        return;
     } 
     else if (nota4.isEmpty()) {
         JOptionPane.showMessageDialog(this, "El campo nota 4 no puede estar vacío.", "Error de Validación", JOptionPane.ERROR_MESSAGE);
         campoNota4.requestFocus(); // Devuelve el foco al campo
+        return;
     } 
     else if (nota5.isEmpty()) {
         JOptionPane.showMessageDialog(this, "El campo nota 5 no puede estar vacío.", "Error de Validación", JOptionPane.ERROR_MESSAGE);
         campoNota5.requestFocus(); // Devuelve el foco al campo
+        return;
     }
 
 
